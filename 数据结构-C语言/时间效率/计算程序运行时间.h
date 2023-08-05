@@ -9,5 +9,5 @@
 #define _________h
 
 #include <stdio.h>
-
+void countPragramRunTime_test(void);
 #endif /* _________h */

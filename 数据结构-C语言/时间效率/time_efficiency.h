@@ -9,5 +9,5 @@
 #define time_efficiency_h
 
 #include <stdio.h>
-
+#include "计算程序运行时间.h"
 #endif /* time_efficiency_h */

@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 
+
+void XSHCountPragRunTime(void (*func)(void));
 #endif /* count_prag_run_time_h */

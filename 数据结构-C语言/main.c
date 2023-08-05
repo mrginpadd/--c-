@@ -5,10 +5,15 @@
 //  Created by xushihao on 2023/8/5.
 //
 
-#include <stdio.h>
+#include "main.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    
+    day1();
+    
     return 0;
 }
+
+
+
+

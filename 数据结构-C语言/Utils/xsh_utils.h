@@ -8,5 +8,5 @@
 #ifndef xsh_utils_h
 #define xsh_utils_h
 
-
+#include "count_prag_run_time.h"
 #endif /* xsh_utils_h */
