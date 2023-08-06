@@ -6,7 +6,7 @@
 //
 
 #include "day1.h"
-#include "main.h"
+
 void testFunc(void);
 int testFunc2(void);
 

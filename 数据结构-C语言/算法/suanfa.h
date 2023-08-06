@@ -8,5 +8,5 @@
 #ifndef suanfa_h
 #define suanfa_h
 
-
+#include "十大算法/分治法.h"
 #endif /* suanfa_h */

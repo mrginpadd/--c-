@@ -14,5 +14,5 @@
 #include "数学思维/math_thinks.h"
 #include "算法/suanfa.h"
 #include "Utils/xsh_utils.h"
-#include "day1.h"
+#include "Days/days.h"
 #endif /* main_h */

@@ -11,6 +11,11 @@
 		A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4825F2A7DDB0E002C31FE /* 计算程序运行时间.c */; };
 		A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4826A2A7DDF3B002C31FE /* count_prag_run_time.c */; };
 		A0A482702A7DE303002C31FE /* day1.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4826F2A7DE303002C31FE /* day1.c */; };
+		A0A482752A7F4038002C31FE /* 分治法.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482742A7F4038002C31FE /* 分治法.c */; };
+		A0A482782A7F43A6002C31FE /* max_func.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482772A7F43A6002C31FE /* max_func.c */; };
+		A0A4827B2A7F4452002C31FE /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4827A2A7F4452002C31FE /* day2.c */; };
+		A0A4827F2A7F483E002C31FE /* random_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4827E2A7F483E002C31FE /* random_array.c */; };
+		A0A482822A7F495D002C31FE /* print_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482812A7F495D002C31FE /* print_array.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +45,17 @@
 		A0A4826C2A7DE248002C31FE /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		A0A4826E2A7DE303002C31FE /* day1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day1.h; sourceTree = "<group>"; };
 		A0A4826F2A7DE303002C31FE /* day1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day1.c; sourceTree = "<group>"; };
+		A0A482732A7F4038002C31FE /* 分治法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "分治法.h"; sourceTree = "<group>"; };
+		A0A482742A7F4038002C31FE /* 分治法.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "分治法.c"; sourceTree = "<group>"; };
+		A0A482762A7F43A6002C31FE /* max_func.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = max_func.h; sourceTree = "<group>"; };
+		A0A482772A7F43A6002C31FE /* max_func.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max_func.c; sourceTree = "<group>"; };
+		A0A482792A7F4452002C31FE /* day2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day2.h; sourceTree = "<group>"; };
+		A0A4827A2A7F4452002C31FE /* day2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day2.c; sourceTree = "<group>"; };
+		A0A4827C2A7F469C002C31FE /* days.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = days.h; sourceTree = "<group>"; };
+		A0A4827D2A7F483E002C31FE /* random_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random_array.h; sourceTree = "<group>"; };
+		A0A4827E2A7F483E002C31FE /* random_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = random_array.c; sourceTree = "<group>"; };
+		A0A482802A7F495D002C31FE /* print_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = print_array.h; sourceTree = "<group>"; };
+		A0A482812A7F495D002C31FE /* print_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_array.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,7 @@
 		A0A4825C2A7DDABD002C31FE /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				A0A482712A7F4011002C31FE /* 十大算法 */,
 				A0A482662A7DDED6002C31FE /* suanfa.h */,
 			);
 			path = "算法";
@@ -124,6 +141,12 @@
 				A0A482682A7DDF0B002C31FE /* xsh_utils.h */,
 				A0A482692A7DDF3B002C31FE /* count_prag_run_time.h */,
 				A0A4826A2A7DDF3B002C31FE /* count_prag_run_time.c */,
+				A0A482762A7F43A6002C31FE /* max_func.h */,
+				A0A482772A7F43A6002C31FE /* max_func.c */,
+				A0A4827D2A7F483E002C31FE /* random_array.h */,
+				A0A4827E2A7F483E002C31FE /* random_array.c */,
+				A0A482802A7F495D002C31FE /* print_array.h */,
+				A0A482812A7F495D002C31FE /* print_array.c */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -133,8 +156,20 @@
 			children = (
 				A0A4826E2A7DE303002C31FE /* day1.h */,
 				A0A4826F2A7DE303002C31FE /* day1.c */,
+				A0A482792A7F4452002C31FE /* day2.h */,
+				A0A4827A2A7F4452002C31FE /* day2.c */,
+				A0A4827C2A7F469C002C31FE /* days.h */,
 			);
 			path = Days;
+			sourceTree = "<group>";
+		};
+		A0A482712A7F4011002C31FE /* 十大算法 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A482732A7F4038002C31FE /* 分治法.h */,
+				A0A482742A7F4038002C31FE /* 分治法.c */,
+			);
+			path = "十大算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A4827B2A7F4452002C31FE /* day2.c in Sources */,
 				A0A482502A7DD98D002C31FE /* main.c in Sources */,
+				A0A482752A7F4038002C31FE /* 分治法.c in Sources */,
 				A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */,
+				A0A482822A7F495D002C31FE /* print_array.c in Sources */,
 				A0A482702A7DE303002C31FE /* day1.c in Sources */,
+				A0A482782A7F43A6002C31FE /* max_func.c in Sources */,
+				A0A4827F2A7F483E002C31FE /* random_array.c in Sources */,
 				A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

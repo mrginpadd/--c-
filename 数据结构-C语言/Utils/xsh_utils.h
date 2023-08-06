@@ -9,4 +9,7 @@
 #define xsh_utils_h
 
 #include "count_prag_run_time.h"
+#include "max_func.h"
+#include "random_array.h"
+#include "print_array.h"
 #endif /* xsh_utils_h */
