@@ -14,4 +14,9 @@ void day2(void) {
     printArray(a);
     int res = findMax(a, 0, 19);
     printf("利用分治法查找最大值 %d \n", res);
+    
+    // 2.最大子列处理典型问题
+    int *b = generateRandomArray(10, -3, 10);
+    printArray(b);
+    printf("最大子列和 %d \n", MaxSubSeqSum(b));
 }

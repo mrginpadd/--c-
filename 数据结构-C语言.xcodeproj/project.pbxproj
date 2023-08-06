@@ -16,6 +16,7 @@
 		A0A4827B2A7F4452002C31FE /* day2.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4827A2A7F4452002C31FE /* day2.c */; };
 		A0A4827F2A7F483E002C31FE /* random_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4827E2A7F483E002C31FE /* random_array.c */; };
 		A0A482822A7F495D002C31FE /* print_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482812A7F495D002C31FE /* print_array.c */; };
+		A0A482862A7F523A002C31FE /* 最大子列问题.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482852A7F523A002C31FE /* 最大子列问题.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +57,8 @@
 		A0A4827E2A7F483E002C31FE /* random_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = random_array.c; sourceTree = "<group>"; };
 		A0A482802A7F495D002C31FE /* print_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = print_array.h; sourceTree = "<group>"; };
 		A0A482812A7F495D002C31FE /* print_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_array.c; sourceTree = "<group>"; };
+		A0A482842A7F523A002C31FE /* 最大子列问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最大子列问题.h"; sourceTree = "<group>"; };
+		A0A482852A7F523A002C31FE /* 最大子列问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "最大子列问题.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 		A0A4825C2A7DDABD002C31FE /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				A0A482832A7F520E002C31FE /* 子列 */,
 				A0A482712A7F4011002C31FE /* 十大算法 */,
 				A0A482662A7DDED6002C31FE /* suanfa.h */,
 			);
@@ -170,6 +174,15 @@
 				A0A482742A7F4038002C31FE /* 分治法.c */,
 			);
 			path = "十大算法";
+			sourceTree = "<group>";
+		};
+		A0A482832A7F520E002C31FE /* 子列 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A482842A7F523A002C31FE /* 最大子列问题.h */,
+				A0A482852A7F523A002C31FE /* 最大子列问题.c */,
+			);
+			path = "子列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +247,7 @@
 				A0A482752A7F4038002C31FE /* 分治法.c in Sources */,
 				A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */,
 				A0A482822A7F495D002C31FE /* print_array.c in Sources */,
+				A0A482862A7F523A002C31FE /* 最大子列问题.c in Sources */,
 				A0A482702A7DE303002C31FE /* day1.c in Sources */,
 				A0A482782A7F43A6002C31FE /* max_func.c in Sources */,
 				A0A4827F2A7F483E002C31FE /* random_array.c in Sources */,

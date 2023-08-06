@@ -9,4 +9,5 @@
 #define suanfa_h
 
 #include "十大算法/分治法.h"
+#include "子列/最大子列问题.h"
 #endif /* suanfa_h */
