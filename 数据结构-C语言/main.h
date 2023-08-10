@@ -15,4 +15,6 @@
 #include "算法/suanfa.h"
 #include "Utils/xsh_utils.h"
 #include "Days/days.h"
+#include "常用数据结构/data_stucture.h"
+#include "data_structures.h"
 #endif /* main_h */

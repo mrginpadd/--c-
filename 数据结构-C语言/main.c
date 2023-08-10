@@ -11,7 +11,10 @@ int main(int argc, const char * argv[]) {
     //1.clock_t类型的使用，程序运行时间的计算
 //    day1();
     //2.初窥分治法
-    day2();
+//    day2();
+    
+    //3.单链表的基本操作
+    day3();
     
     return 0;
 }

@@ -17,6 +17,8 @@
 		A0A4827F2A7F483E002C31FE /* random_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4827E2A7F483E002C31FE /* random_array.c */; };
 		A0A482822A7F495D002C31FE /* print_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482812A7F495D002C31FE /* print_array.c */; };
 		A0A482862A7F523A002C31FE /* 最大子列问题.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482852A7F523A002C31FE /* 最大子列问题.c */; };
+		A0A482CC2A83D88D002C31FE /* 单链表.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482CB2A83D88D002C31FE /* 单链表.c */; };
+		A0A482CF2A83EAA7002C31FE /* day3.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A482CE2A83EAA7002C31FE /* day3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,12 @@
 		A0A482812A7F495D002C31FE /* print_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_array.c; sourceTree = "<group>"; };
 		A0A482842A7F523A002C31FE /* 最大子列问题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "最大子列问题.h"; sourceTree = "<group>"; };
 		A0A482852A7F523A002C31FE /* 最大子列问题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "最大子列问题.c"; sourceTree = "<group>"; };
+		A0A482C92A83D86C002C31FE /* data_stucture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_stucture.h; sourceTree = "<group>"; };
+		A0A482CA2A83D88D002C31FE /* 单链表.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "单链表.h"; sourceTree = "<group>"; };
+		A0A482CB2A83D88D002C31FE /* 单链表.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "单链表.c"; sourceTree = "<group>"; };
+		A0A482CD2A83EAA7002C31FE /* day3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day3.h; sourceTree = "<group>"; };
+		A0A482CE2A83EAA7002C31FE /* day3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day3.c; sourceTree = "<group>"; };
+		A0A482D12A83EF09002C31FE /* data_structures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data_structures.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +99,13 @@
 		A0A4824E2A7DD98D002C31FE /* 数据结构-C语言 */ = {
 			isa = PBXGroup;
 			children = (
+				A0A482D02A83EEE1002C31FE /* DataStructure */,
 				A0A4824F2A7DD98D002C31FE /* main.c */,
 				A0A4826C2A7DE248002C31FE /* main.h */,
 				A0A4826D2A7DE2D4002C31FE /* Days */,
 				A0A482642A7DDD70002C31FE /* Utils */,
 				A0A4825D2A7DDACF002C31FE /* 数学思维 */,
+				A0A482C72A83D7FB002C31FE /* 常用数据结构 */,
 				A0A4825C2A7DDABD002C31FE /* 算法 */,
 				A0A482582A7DDA79002C31FE /* 空间效率 */,
 				A0A482562A7DDA53002C31FE /* 时间效率 */,
@@ -162,6 +172,8 @@
 				A0A4826F2A7DE303002C31FE /* day1.c */,
 				A0A482792A7F4452002C31FE /* day2.h */,
 				A0A4827A2A7F4452002C31FE /* day2.c */,
+				A0A482CD2A83EAA7002C31FE /* day3.h */,
+				A0A482CE2A83EAA7002C31FE /* day3.c */,
 				A0A4827C2A7F469C002C31FE /* days.h */,
 			);
 			path = Days;
@@ -183,6 +195,32 @@
 				A0A482852A7F523A002C31FE /* 最大子列问题.c */,
 			);
 			path = "子列";
+			sourceTree = "<group>";
+		};
+		A0A482C72A83D7FB002C31FE /* 常用数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A482C82A83D82F002C31FE /* 链表 */,
+				A0A482C92A83D86C002C31FE /* data_stucture.h */,
+			);
+			path = "常用数据结构";
+			sourceTree = "<group>";
+		};
+		A0A482C82A83D82F002C31FE /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				A0A482CA2A83D88D002C31FE /* 单链表.h */,
+				A0A482CB2A83D88D002C31FE /* 单链表.c */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		A0A482D02A83EEE1002C31FE /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				A0A482D12A83EF09002C31FE /* data_structures.h */,
+			);
+			path = DataStructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A482CC2A83D88D002C31FE /* 单链表.c in Sources */,
 				A0A4827B2A7F4452002C31FE /* day2.c in Sources */,
 				A0A482502A7DD98D002C31FE /* main.c in Sources */,
 				A0A482752A7F4038002C31FE /* 分治法.c in Sources */,
@@ -249,6 +288,7 @@
 				A0A482822A7F495D002C31FE /* print_array.c in Sources */,
 				A0A482862A7F523A002C31FE /* 最大子列问题.c in Sources */,
 				A0A482702A7DE303002C31FE /* day1.c in Sources */,
+				A0A482CF2A83EAA7002C31FE /* day3.c in Sources */,
 				A0A482782A7F43A6002C31FE /* max_func.c in Sources */,
 				A0A4827F2A7F483E002C31FE /* random_array.c in Sources */,
 				A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */,

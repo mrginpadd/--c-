@@ -10,6 +10,8 @@
 
 #include <stdio.h>
 #include "max_func.h"
-#include "main.h"
+#include "xsh_utils.h"
+#include "分治法.h"
+#include "最大子列问题.h"
 void day2(void);
 #endif /* day2_h */

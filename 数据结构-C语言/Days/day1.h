@@ -9,6 +9,6 @@
 #define day1_h
 
 #include <stdio.h>
-#include "main.h"
+#include "xsh_utils.h"
 void day1(void);
 #endif /* day1_h */
