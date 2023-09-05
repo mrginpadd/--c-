@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0444ADF2AA778CC0052C95D /* 后缀表达式.c in Sources */ = {isa = PBXBuildFile; fileRef = A0444ADE2AA778CC0052C95D /* 后缀表达式.c */; };
+		A0444AE22AA77D450052C95D /* 堆栈.c in Sources */ = {isa = PBXBuildFile; fileRef = A0444AE12AA77D450052C95D /* 堆栈.c */; };
+		A0444AE52AA783C50052C95D /* day4.c in Sources */ = {isa = PBXBuildFile; fileRef = A0444AE42AA783C50052C95D /* day4.c */; };
 		A0A482502A7DD98D002C31FE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4824F2A7DD98D002C31FE /* main.c */; };
 		A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4825F2A7DDB0E002C31FE /* 计算程序运行时间.c */; };
 		A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4826A2A7DDF3B002C31FE /* count_prag_run_time.c */; };
@@ -34,6 +37,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A0444ADD2AA778CC0052C95D /* 后缀表达式.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "后缀表达式.h"; sourceTree = "<group>"; };
+		A0444ADE2AA778CC0052C95D /* 后缀表达式.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "后缀表达式.c"; sourceTree = "<group>"; };
+		A0444AE02AA77D450052C95D /* 堆栈.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "堆栈.h"; sourceTree = "<group>"; };
+		A0444AE12AA77D450052C95D /* 堆栈.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "堆栈.c"; sourceTree = "<group>"; };
+		A0444AE32AA783C50052C95D /* day4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day4.h; sourceTree = "<group>"; };
+		A0444AE42AA783C50052C95D /* day4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day4.c; sourceTree = "<group>"; };
 		A0A4824C2A7DD98D002C31FE /* 数据结构-C语言 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构-C语言"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4824F2A7DD98D002C31FE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A0A4825E2A7DDB0E002C31FE /* 计算程序运行时间.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "计算程序运行时间.h"; sourceTree = "<group>"; };
@@ -80,6 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0444ADB2AA777750052C95D /* 堆栈 */ = {
+			isa = PBXGroup;
+			children = (
+				A0444AE02AA77D450052C95D /* 堆栈.h */,
+				A0444AE12AA77D450052C95D /* 堆栈.c */,
+			);
+			path = "堆栈";
+			sourceTree = "<group>";
+		};
+		A0444ADC2AA778350052C95D /* 表达式求值 */ = {
+			isa = PBXGroup;
+			children = (
+				A0444ADD2AA778CC0052C95D /* 后缀表达式.h */,
+				A0444ADE2AA778CC0052C95D /* 后缀表达式.c */,
+			);
+			path = "表达式求值";
+			sourceTree = "<group>";
+		};
 		A0A482432A7DD98D002C31FE = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +161,7 @@
 		A0A4825C2A7DDABD002C31FE /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				A0444ADC2AA778350052C95D /* 表达式求值 */,
 				A0A482832A7F520E002C31FE /* 子列 */,
 				A0A482712A7F4011002C31FE /* 十大算法 */,
 				A0A482662A7DDED6002C31FE /* suanfa.h */,
@@ -174,6 +202,8 @@
 				A0A4827A2A7F4452002C31FE /* day2.c */,
 				A0A482CD2A83EAA7002C31FE /* day3.h */,
 				A0A482CE2A83EAA7002C31FE /* day3.c */,
+				A0444AE32AA783C50052C95D /* day4.h */,
+				A0444AE42AA783C50052C95D /* day4.c */,
 				A0A4827C2A7F469C002C31FE /* days.h */,
 			);
 			path = Days;
@@ -200,6 +230,7 @@
 		A0A482C72A83D7FB002C31FE /* 常用数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				A0444ADB2AA777750052C95D /* 堆栈 */,
 				A0A482C82A83D82F002C31FE /* 链表 */,
 				A0A482C92A83D86C002C31FE /* data_stucture.h */,
 			);
@@ -283,14 +314,17 @@
 				A0A482CC2A83D88D002C31FE /* 单链表.c in Sources */,
 				A0A4827B2A7F4452002C31FE /* day2.c in Sources */,
 				A0A482502A7DD98D002C31FE /* main.c in Sources */,
+				A0444AE22AA77D450052C95D /* 堆栈.c in Sources */,
 				A0A482752A7F4038002C31FE /* 分治法.c in Sources */,
 				A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */,
 				A0A482822A7F495D002C31FE /* print_array.c in Sources */,
 				A0A482862A7F523A002C31FE /* 最大子列问题.c in Sources */,
 				A0A482702A7DE303002C31FE /* day1.c in Sources */,
 				A0A482CF2A83EAA7002C31FE /* day3.c in Sources */,
+				A0444AE52AA783C50052C95D /* day4.c in Sources */,
 				A0A482782A7F43A6002C31FE /* max_func.c in Sources */,
 				A0A4827F2A7F483E002C31FE /* random_array.c in Sources */,
+				A0444ADF2AA778CC0052C95D /* 后缀表达式.c in Sources */,
 				A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,4 +9,5 @@
 #define data_stucture_h
 
 #include "链表/单链表.h"
+#include "堆栈/堆栈.h"
 #endif /* data_stucture_h */

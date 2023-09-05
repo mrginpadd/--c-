@@ -14,7 +14,10 @@ int main(int argc, const char * argv[]) {
 //    day2();
     
     //3.单链表的基本操作
-    day3();
+//    day3();
+    
+    //4.堆栈的基本操作
+    day4();
     
     return 0;
 }
