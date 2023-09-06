@@ -17,8 +17,10 @@ int main(int argc, const char * argv[]) {
 //    day3();
     
     //4.堆栈的基本操作
-    day4();
+//    day4();
     
+    //5.链式堆栈
+    day5();
     return 0;
 }
 

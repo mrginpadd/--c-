@@ -23,4 +23,10 @@ typedef struct {
     int maxSize;  //栈的最大容量
 } Stack;
 
+// 链式堆栈
+typedef struct {
+    int data;
+    struct LinkStack *next;
+} LinkStack;
+
 #endif /* data_structures_h */
