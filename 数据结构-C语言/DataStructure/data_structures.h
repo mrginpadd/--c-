@@ -29,4 +29,18 @@ typedef struct {
     struct LinkStack *next;
 } LinkStack;
 
+
+// 3.队列
+typedef struct {
+    int maxSize;
+    int *data;
+    int rear;
+    int front;
+    int size;
+} QueueNode;
 #endif /* data_structures_h */
+
+
+
+
+

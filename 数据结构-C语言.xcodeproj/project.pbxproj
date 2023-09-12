@@ -12,6 +12,8 @@
 		A0444AE52AA783C50052C95D /* day4.c in Sources */ = {isa = PBXBuildFile; fileRef = A0444AE42AA783C50052C95D /* day4.c */; };
 		A07FEF882AA8B04000FF2F47 /* 链式堆栈.c in Sources */ = {isa = PBXBuildFile; fileRef = A07FEF872AA8B04000FF2F47 /* 链式堆栈.c */; };
 		A07FEF8B2AA8BAF200FF2F47 /* day5.c in Sources */ = {isa = PBXBuildFile; fileRef = A07FEF8A2AA8BAF200FF2F47 /* day5.c */; };
+		A07FEF8F2AB0A07400FF2F47 /* 队列.c in Sources */ = {isa = PBXBuildFile; fileRef = A07FEF8E2AB0A07400FF2F47 /* 队列.c */; };
+		A07FEF922AB0AA3C00FF2F47 /* day6.c in Sources */ = {isa = PBXBuildFile; fileRef = A07FEF912AB0AA3C00FF2F47 /* day6.c */; };
 		A0A482502A7DD98D002C31FE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4824F2A7DD98D002C31FE /* main.c */; };
 		A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4825F2A7DDB0E002C31FE /* 计算程序运行时间.c */; };
 		A0A4826B2A7DDF3B002C31FE /* count_prag_run_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A0A4826A2A7DDF3B002C31FE /* count_prag_run_time.c */; };
@@ -49,6 +51,10 @@
 		A07FEF872AA8B04000FF2F47 /* 链式堆栈.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "链式堆栈.c"; sourceTree = "<group>"; };
 		A07FEF892AA8BAF200FF2F47 /* day5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day5.h; sourceTree = "<group>"; };
 		A07FEF8A2AA8BAF200FF2F47 /* day5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day5.c; sourceTree = "<group>"; };
+		A07FEF8D2AB0A07400FF2F47 /* 队列.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "队列.h"; sourceTree = "<group>"; };
+		A07FEF8E2AB0A07400FF2F47 /* 队列.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "队列.c"; sourceTree = "<group>"; };
+		A07FEF902AB0AA3C00FF2F47 /* day6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = day6.h; sourceTree = "<group>"; };
+		A07FEF912AB0AA3C00FF2F47 /* day6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = day6.c; sourceTree = "<group>"; };
 		A0A4824C2A7DD98D002C31FE /* 数据结构-C语言 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数据结构-C语言"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4824F2A7DD98D002C31FE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A0A4825E2A7DDB0E002C31FE /* 计算程序运行时间.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "计算程序运行时间.h"; sourceTree = "<group>"; };
@@ -113,6 +119,15 @@
 				A0444ADE2AA778CC0052C95D /* 后缀表达式.c */,
 			);
 			path = "表达式求值";
+			sourceTree = "<group>";
+		};
+		A07FEF8C2AB0A06400FF2F47 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				A07FEF8D2AB0A07400FF2F47 /* 队列.h */,
+				A07FEF8E2AB0A07400FF2F47 /* 队列.c */,
+			);
+			path = "队列";
 			sourceTree = "<group>";
 		};
 		A0A482432A7DD98D002C31FE = {
@@ -214,6 +229,8 @@
 				A0444AE42AA783C50052C95D /* day4.c */,
 				A07FEF892AA8BAF200FF2F47 /* day5.h */,
 				A07FEF8A2AA8BAF200FF2F47 /* day5.c */,
+				A07FEF902AB0AA3C00FF2F47 /* day6.h */,
+				A07FEF912AB0AA3C00FF2F47 /* day6.c */,
 				A0A4827C2A7F469C002C31FE /* days.h */,
 			);
 			path = Days;
@@ -240,6 +257,7 @@
 		A0A482C72A83D7FB002C31FE /* 常用数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				A07FEF8C2AB0A06400FF2F47 /* 队列 */,
 				A0444ADB2AA777750052C95D /* 堆栈 */,
 				A0A482C82A83D82F002C31FE /* 链表 */,
 				A0A482C92A83D86C002C31FE /* data_stucture.h */,
@@ -322,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A482CC2A83D88D002C31FE /* 单链表.c in Sources */,
+				A07FEF8F2AB0A07400FF2F47 /* 队列.c in Sources */,
 				A0A4827B2A7F4452002C31FE /* day2.c in Sources */,
 				A07FEF882AA8B04000FF2F47 /* 链式堆栈.c in Sources */,
 				A0A482502A7DD98D002C31FE /* main.c in Sources */,
@@ -335,6 +354,7 @@
 				A0444AE52AA783C50052C95D /* day4.c in Sources */,
 				A0A482782A7F43A6002C31FE /* max_func.c in Sources */,
 				A0A4827F2A7F483E002C31FE /* random_array.c in Sources */,
+				A07FEF922AB0AA3C00FF2F47 /* day6.c in Sources */,
 				A0444ADF2AA778CC0052C95D /* 后缀表达式.c in Sources */,
 				A0A482602A7DDB0E002C31FE /* 计算程序运行时间.c in Sources */,
 				A07FEF8B2AA8BAF200FF2F47 /* day5.c in Sources */,

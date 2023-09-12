@@ -13,8 +13,6 @@
 
 Stack *CreateStack(int MaxSize);
 
-//生成空堆栈，最大长度为maxSize
-void Push(Stack *S, int item);
 
 //判断堆栈S是否已满
 int IsFull(Stack S, int MaxSize);

@@ -11,4 +11,5 @@
 #include "链表/单链表.h"
 #include "堆栈/堆栈.h"
 #include "堆栈/链式堆栈.h"
+#include "队列/队列.h"
 #endif /* data_stucture_h */

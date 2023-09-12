@@ -20,7 +20,10 @@ int main(int argc, const char * argv[]) {
 //    day4();
     
     //5.链式堆栈
-    day5();
+//    day5();
+    
+    //6.循环队列
+    day6();
     return 0;
 }
 
