@@ -38,6 +38,21 @@ typedef struct {
     int front;
     int size;
 } QueueNode;
+
+// 4. 链式队列
+
+struct QNode{
+    int data;
+    struct QNode *next;
+};
+
+typedef struct {
+    struct QNode *rear;
+    struct QNode *front;
+} QLNode;
+
+
+
 #endif /* data_structures_h */
 
 

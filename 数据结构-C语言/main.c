@@ -23,7 +23,10 @@ int main(int argc, const char * argv[]) {
 //    day5();
     
     //6.循环队列
-    day6();
+//    day6();
+    
+    //7.链式队列
+    day7();
     return 0;
 }
 
